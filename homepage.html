@@ -7,14 +7,14 @@
 	<body>
 		Welcome to the Marvel Character Database
         
-		<form action="q1input.php" method="post">
+		<form action="searchForm.php" method="post">
 
         <!-- Males and Females buttons --->
-        Search options: <br>
-        <input type="radio" name="GenderRadio" value="Males"> Males <br>
-        <input type="radio" name="GenderRadio" value="Females"> Females <br>
+        Search options (Select last name of character to search for): <br>
+        <input type="radio" name="CharacterRadio" value="Curry"> Steph Curry <br>
+        <input type="radio" name="CharacterRadio" value="James"> Lebron James <br>
 
-        From year: 
+        From year (This will be ignored): 
         <input type="text" name="TextYear" maxlength="4" size="5"><br>
         
 		<input type="submit">

@@ -2,7 +2,7 @@
 <?php
 
 $serverName 	= "localhost";
-$dbName 	= "movies";
+$dbName 	= "mwalton2";
 $user		= "mwalton2";
 $pw	 	= "Oberlin@123";
 
@@ -20,14 +20,14 @@ function PrintPage($body, $year) {
 
 
 try {
-    $selectedRadio = $_POST["GenderRadio"];
+    $selectedRadio = $_POST["CharacterRadio"];
     $userYear = $_POST["TextYear"];
     echo "You selected: $selectedRadio from the year $userYear";
 
   $year = $_POST['year'];
   //  $year = "1995; delete from students;";
 
-  $body = "<table><tr><th>ID</th><th>Title</th><th>Average Rating</th></tr>";
+  $body = "<table><tr><th>PersonID</th><th>LastName</th><th>FirstName</th><th>City</th></tr>";
 
   $conn = new PDO("mysql:host=$serverName;dbname=$dbName", 
 		  $user, $pw);
@@ -35,30 +35,27 @@ try {
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
   // Test statement
-  //$stmt = $conn->prepare('select title, year from movies limit 20;');
+  $stmt = $conn->prepare('select * from Persons where LastName = :selectedRadio;');
   
   
   // given statement:
-  $stmt = $conn->prepare('select title, avg(rating) as avg_rating from movies natural join ratings WHERE YEAR = :year group by title order by avg_rating desc limit 20;');
+  //$stmt = $conn->prepare('select title, avg(rating) as avg_rating from movies natural join ratings WHERE YEAR = :year group by title order by avg_rating desc limit 20;');
                           
   $year = 1995;
-  $stmt->execute( array(':year' => $year) );
+  $stmt->execute( array(':selectedRadio' => $selectedRadio) );
 
-  /*
-  // Test: Change variable names to reflect sql query
-  foreach($stmt->fetchAll(PDO::FETCH_ASSOC) as $key =>$val ) { 
-    $body .= "<tr><td>$key</td><td>" . 
-		   $val['title'] . 
-		   "</td><td>" . $val['year'] . "</td></tr>\n";
-  } */
-
-  
   // Given statement
   foreach($stmt->fetchAll(PDO::FETCH_ASSOC) as $key =>$val ) { 
     $body .= "<tr><td>$key</td><td>" . 
-		   $val['title'] . 
-		   "</td><td>" . $val['avg_rating'] . "</td></tr>\n";
-  }
+        $val['PersonID'] . 
+	    "</td><td>" .
+        $val['LastName'] . 
+	    "</td><td>" .
+        $val['FirstName'] . 
+	    "</td><td>" .
+        $val['City'] . 
+        "</td></tr>\n";
+    }
   
 
   $body .= "</table>\n";

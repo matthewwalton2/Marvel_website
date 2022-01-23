@@ -1,16 +1,64 @@
 -- Input one line of data in order to test the php search functions
 -- To run this:
--- source www/311-project/sqlScripts/testDataInput.sql
+-- source www/311-project/sqlScripts/testDataInput.sql;
 
+
+
+-- Living Status,Reality,Place of Birth,Identity,Citizenship,Occupation,Creator1,Creator2,First Appearance,All Tags
+use mwalton2;
+CREATE Table Characters (
+    int Id,
+    Name varchar(255),
+    Affiliation varchar(255),
+    Marital_status varchar(255),
+    Gender varchar(255),
+    Height varchar(255),
+    Weight varchar(255),
+    Eyes varchar(255),
+    Hair varchar(255),
+    Unusual_features varchar(255),
+    Origin varchar(255),
+    Living_status varchar(255),
+    Reality varchar(255),
+    Birthplace varchar(255),
+    Identity varchar(255),
+    Citizenship varchar(255),
+    Occupation varchar(255),
+    Creator1 varchar(255),
+    Creator2 varchar(255),
+    Premiere varchar(255),
+    All_tags varchar(255)
+);
+
+
+
+-- This is for VOLUMES
+--Id,Name,Writer,Editor,Letterer,Penciler,Colorist,Inker,Editor In Chief,Cover Artist,All Tags
+use mwalton2;
+CREATE Table Characters (
+    int Id,
+    Name varchar(255),
+    Writer varchar(255),
+    Editor varchar(255),
+    Letterer varchar(255),
+    Penciler varchar(255),
+    Colorist varchar(255),
+    Inker varchar(255),
+    Editor_In_Chief varchar(255),
+    Cover-Artist varchar(255),
+    All_tags varchar(255)
+);
+
+/*
 use mwalton2; 
 CREATE TABLE Characters (CharID int, charName varchar(255), Gender varchar(255), eyeColor varchar(255));
 
 INSERT INTO Characters VALUES
-    (113, 'Ho Chi Minh', 'Male', '');
+    (113, 'Ho Chi Minh', 'Male', ' '),
     (335, 'Professor Rex', 'Male', 'Brown'),
     (640, 'Norma Astrovik', 'Female', 'Brown'),
     (1413, 'Nicholas Fury', 'Male', 'Brown'),
-    (1437, 'Peter Parker', 'Male', 'Hazel, Brown'),
+    (1437, 'Peter Parker', 'Male', 'Hazel'),
     (2003, 'Adolf Hitler', 'Male', 'Brown')
     ;
 

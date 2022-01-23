@@ -65,7 +65,13 @@ $conn = new PDO("mysql:host=$serverName;dbname=$dbName",
 // set the PDO error mode to exception
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-$query = 'select * from Characters where ' . $secondInput . ' ' . $comparator . ' \'' . $thirdInput . '\';';
+if($comparator == 'R'){
+  $query = 'select * from Characters where ' . $secondInput . ' ' . 'RLIKE' . ' \'' . $thirdInput . '\';';
+}
+else{
+  $query = 'select * from Characters where ' . $secondInput . ' ' . $comparator . ' \'' . $thirdInput . '\';';
+}
+
 $stmt = $conn->prepare($query);
 $stmt->execute();
 

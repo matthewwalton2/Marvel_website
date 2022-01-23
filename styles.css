@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-size: 10% 10%, 45% 45%;
     background-position-x: center, center; 
+    background-position-y: 320px, 50px;
 } 
 head {
     color: white;
@@ -16,39 +17,16 @@ head {
 h1 {
     font-size: 75px;
     color: white;
-    position: relative; 
-    top: 215px;
+    position: relative;
+    top: -45px;
     text-align: center;
  }
  h2 {
      color: yellow;
-     font-size: 36px;
+     font-size: 24px;
      text-align: center;
-     top: 200px;
- }
- /*
- body {
-    position: relative;
-    top:300px;
-    text-align: center;
- }
- */
- /*
- h2 {
-    color: rgb(0, 73, 17);
-    position: relative; 
-    top: 300px;
-    text-align: center;
- }
- /*
- p1 {
-     
- }
- p2 {
      position: relative;
-     size: 35;
-     top: 400px;
-     text-align: right;
+     top: 250px;
  }
- */
+
  

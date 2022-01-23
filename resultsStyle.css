@@ -10,10 +10,8 @@ body {
     background-size: 10% 10%, 45% 45%;
     background-position-x: center, center; 
     background-position-y: 330px, 60px;
-} 
-head {
-    color: white;
 }
+
 h1 {
     font-size: 75px;
     color: white;
@@ -29,5 +27,21 @@ h1 {
      font-size: 18px;
      text-align: center;
      position: relative;
-     top: 250px;
+     top: 215px;
  }
+ h3{
+    /*
+     color: white;
+     font-size: 18px;
+     text-align: center;
+     position: relative;
+     top: 250px;
+    */
+
+     color: white;
+     font-size: 18px;
+     text-align: center;
+     position: relative;
+     top: 215px;
+ }
+ 

@@ -1,0 +1,1 @@
+	Gender,Male,	Origin,Magician,Living Status,Alive,Reality,Earth-616,	Occupation,Saint,Base of Operations,Britain,	First,Unknown,	Characters,Male Characters,Magicians,Saints,Living Characters,Earth-616/Characters,

@@ -1,0 +1,1 @@
+	Type,Drug,Model,1,Version,1,Origin,Reality,Earth-928,Lead Designer,Alchemax,	Creators,Peter David, Rick Leonardi,First,Spider-Man 2099 #1(September, 1992),	Creators,Peter David, Rick Leonardi,First,Spider-Man 2099 #1(September, 1992),	Items,Drugs,Earth-928/Items,Peter David/Creator,Rick Leonardi/Creator,1992 Item Debuts,Alchemax Experiment,

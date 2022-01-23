@@ -1,0 +1,1 @@
+	Gender,Male,Eyes,Irises:Black,Hair,Bald,	Origin,Human,Living Status,Alive,Reality,Earth-616,	Occupation,Captain,	Creators,Stan Lee, John Romita Sr.,First,Amazing Spider-Man #88(September, 1970),	Characters,Male Characters,Humans (Homo sapiens),Stan Lee/Creator,John Romita Sr./Creator,Black Eyes,Bald,Living Characters,Earth-616/Characters,1970 Character Debuts,

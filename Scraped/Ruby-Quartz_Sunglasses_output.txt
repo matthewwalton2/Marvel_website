@@ -1,0 +1,1 @@
+	Type,Visor,Main Material(s),Ruby-Quartz,Model,1,Version,1,Origin,Origin,Technology,Reality,Earth-616,	Creators,Stan Lee, Jack Kirby,First,X-Men #1(July, 1963),	Creators,Stan Lee, Jack Kirby,First,X-Men #1(July, 1963),	Items,Scott Summers (Earth-616)/Items,Visors,Technology,Stan Lee/Creator,Jack Kirby/Creator,Ruby-Quartz,Earth-616/Items,1963 Item Debuts,Power Negation Technology,

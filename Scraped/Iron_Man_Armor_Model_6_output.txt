@@ -1,0 +1,1 @@
+	Type,Armor,Model,6,Version,2,Origin,Reality,Earth-616,Lead Designer,Tony Stark,	Creators,David Michelinie, Bob Layton,First,Iron Man #218(February, 1987),	Creators,David Michelinie, Bob Layton,First,Iron Man #218(February, 1987),	Items,Battlesuits,Earth-616/Items,David Michelinie/Creator,Bob Layton/Creator,1987 Item Debuts,Iron Man Armor,

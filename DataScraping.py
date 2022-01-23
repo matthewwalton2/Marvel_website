@@ -100,7 +100,7 @@ def scrape(site, d, lim):
     original_stdout = sys.stdout
     name = site.split('/')[-1] + "_output.txt"
     #we don't want to make output files for category files, but we do want to use them for recursion
-    if( "Category:" not in site):
+    if( "Category:" not in site and (not len(name)> 1000):
         with open(name, 'a+') as f:
             sys.stdout = f
             for line in Prelim_scrape(site):

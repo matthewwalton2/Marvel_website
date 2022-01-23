@@ -12,7 +12,7 @@ body {
     background-position-y: 330px, 60px;
 }
 
-h1 {
+h1 { /* "Search Results" at top of page */
     font-size: 75px;
     color: white;
     position: relative;
@@ -20,28 +20,49 @@ h1 {
     text-align: center;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-decoration: underline;
+}
 
- }
- h2 {
-     color: white;
-     font-size: 18px;
-     text-align: center;
-     position: relative;
-     top: 215px;
- }
- h3{
-    /*
-     color: white;
-     font-size: 18px;
-     text-align: center;
-     position: relative;
-     top: 250px;
-    */
+.container { /* Contains the query, results header, and results table */
+    top: 215px;
+    margin: 25px, 25px;
+    text-align: center;
+    outline: solid 1px black;
+    color: white;
+    position: relative;
+}
 
-     color: white;
-     font-size: 18px;
-     text-align: center;
-     position: relative;
-     top: 215px;
- }
- 
+p1 { /* Query */
+    font-size: 12px;
+    text-align: center;
+}
+
+p2 { /* Header for results table */
+    font-size: 18px;
+    
+    text-decoration: wavy;
+    text-align: center;
+}
+
+p3 { /* Results table */
+    text-align: center;
+}
+
+table { /* Table-wide stylings */
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:separate;
+}
+
+th { /* Format for all table headers */
+    padding: 5px;
+    margin: 50% auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+td { /* Format for all table data */
+    text-align: center;
+    border: 1px solid #999;
+}
+
+

@@ -7,7 +7,7 @@
 -- Living Status,Reality,Place of Birth,Identity,Citizenship,Occupation,Creator1,Creator2,First Appearance,All Tags
 use mwalton2;
 CREATE Table Characters (
-    int Id,
+    Id int,
     Name varchar(255),
     Affiliation varchar(255),
     Marital_status varchar(255),

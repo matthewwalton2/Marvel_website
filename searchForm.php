@@ -40,7 +40,24 @@ catch(PDOException $e) {
   PrintPage("Connection failed: " . $e->getMessage(), "Unknown");
 }
 
-$result_header = "<table><tr><th>CharID</th><th>charName</th><th>Gender</th><th>eyeColor</th></tr></table>";
+$result_header = "<table><tr>
+  <th>Name</th>
+  <th>Affiliation</th>
+  <th>Gender</th>
+  <th>Height</th>
+  <th>Weight</th>
+  <th>Eyes</th>
+  <th>Hair</th>
+  <th>Origin</th>
+  <th>Living Status</th>
+  <th>Reality</th>
+  <th>Birthplace</th>
+  <th>Identity</th>
+  <th>Citizenship</th>
+  <th>Occupation</th>
+  <th>Creator</th>
+  <th>Premiere</th>
+  </tr></table>";
 $result_body = "<table>";
 
 $conn = new PDO("mysql:host=$serverName;dbname=$dbName", 
@@ -55,16 +72,47 @@ $stmt->execute();
 
 foreach($stmt->fetchAll(PDO::FETCH_ASSOC) as $key => $val ) { 
   $result_body .= "<td>" . 
-      $val['CharID'] . 
+      //$val['ID'] . 
+      //"</td><td>" .
+      $val['Name'] . 
       "</td><td>" .
-      $val['charName'] . 
-      "</td><td>" .
-      $val['Gender'] . 
+      $val['Affiliation'] . 
       "</td><td>" . 
-      $val['eyeColor'] . 
+      //$val['Marital Status'] . 
+      //"</td><td>" .
+      $val['Gender'] . 
+      "</td><td>" .
+      $val['Height'] . 
+      "</td><td>" .
+      $val['Weight'] . 
+      "</td><td>" .
+      $val['Eyes'] . 
+      "</td><td>" .
+      $val['Hair'] . 
+      "</td><td>" .
+      //$val['Unusual Features'] . 
+      //"</td><td>" .
+      $val['Origin'] . 
+      "</td><td>" .
+      $val['Living Status'] . 
+      "</td><td>" .
+      $val['Reality'] . 
+      "</td><td>" .
+      $val['Birthplace'] . 
+      "</td><td>" .
+      $val['Identity'] . 
+      "</td><td>" .
+      $val['Citizenship'] . 
+      "</td><td>" .
+      $val['Occupation'] . 
+      "</td><td>" .
+      $val['Creator'] . 
+      "</td><td>" .
+      //$val['Creatr'] . 
+      //"</td><td>" .
+      $val['Premiere'] . 
       "</td></tr>\n";
 }
-
 $result_body .= "</table>\n";
 
 PrintPage($result_header, $result_body, $query);

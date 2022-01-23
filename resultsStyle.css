@@ -5,7 +5,7 @@ body {
     /* This is just for background stuff*/
     background-color: #494949;
     background-image: url('pictures/marvel_logo.jpg'), url('pictures/marvel_characters_hires.png');
-    background-attachment: fixed, fixed;
+    background-attachment: scroll, scroll;
     background-repeat: no-repeat, no-repeat;
     background-size: 10% 10%, 45% 45%;
     background-position-x: center, center; 
@@ -25,8 +25,7 @@ h1 { /* "Search Results" at top of page */
 .container { /* Contains the query, results header, and results table */
     top: 215px;
     margin: 25px, 25px;
-    text-align: center;
-    outline: solid 1px black;
+    text-align: left;
     color: white;
     position: relative;
 }
@@ -36,23 +35,12 @@ p1 { /* Query */
     text-align: center;
 }
 
-p2 { /* Header for results table */
-    font-size: 18px;
-    
-    text-decoration: wavy;
-    text-align: center;
-}
-
-p3 { /* Results table */
-    text-align: center;
-}
-
 table { /* Table-wide stylings */
     margin-left: auto;
     margin-right: auto;
     border-collapse: seperate;
     border-spacing: 50px 0;
-    text-align: center;
+    text-align: left;
 }
 
 th { /* Format for all table headers */
@@ -62,8 +50,8 @@ th { /* Format for all table headers */
 
 td { /* Format for all table data */
     width: 100px;
-    font-size: 16px;
-    border: 0px solid #999;
+    font-size: 12px;
+    border: 1px solid #999;
 }
 
 

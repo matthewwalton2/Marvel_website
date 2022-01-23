@@ -1,0 +1,1 @@
+	Gender,Male,	Origin,Android,Living Status,Deceased,Reality,Earth-616,	Identity,No Dual,Occupation,Robot,	Creators,Stan Lee, Jack Kirby,First,Death,Fantastic Four #100(July, 1970),Fantastic Four #100(July, 1970),	Characters,Male Characters,Androids,No Dual Identity Characters,Stan Lee/Creator,Jack Kirby/Creator,Deceased Characters,Earth-616/Characters,1970 Character Debuts,

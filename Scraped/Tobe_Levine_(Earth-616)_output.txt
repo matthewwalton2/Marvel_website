@@ -1,0 +1,1 @@
+	Gender,Male,Hair,Brown,	Living Status,Alive,Reality,Earth-616,	Identity,Public,Occupation,Wrestler,	Creators,Stan Lee, Gene Colan,First,Daredevil #22(September, 1966),	Characters,Male Characters,Living Characters,Public Identity Characters,Stan Lee/Creator,Gene Colan/Creator,Brown Hair,Earth-616/Characters,Wrestlers,1966 Character Debuts,

@@ -1,0 +1,1 @@
+	Gender,Male,Eyes,Irises:Blue,Hair,Blond,	Living Status,Alive,Reality,Earth-8107,	Identity,Public,Citizenship,American,Occupation,Criminal,	Creators,Don Glut,First,Spider-Man S1E22(February 6, 1982),	Characters,Male Characters,Living Characters,Public Identity Characters,Don Glut/Creator,Blue Eyes,Blond Hair,Earth-8107/Characters,Americans,Criminals,1982 Character Debuts,

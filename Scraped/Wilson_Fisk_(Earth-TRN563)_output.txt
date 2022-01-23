@@ -1,0 +1,1 @@
+	Gender,Male,Hair,Bald,	Origin,Human,Living Status,Alive,Reality,Earth-TRN563,	Identity,Secret,Citizenship,American,	Creators,Antony Johnston,First,Daredevil: Season One 1,	Characters,Male Characters,Humans (Homo sapiens),Secret Identity Characters,Antony Johnston/Creator,Bald,Living Characters,Earth-TRN563/Characters,Americans,Fisk Family,

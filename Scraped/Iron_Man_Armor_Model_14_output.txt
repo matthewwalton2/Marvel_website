@@ -1,0 +1,1 @@
+	Type,Armor,Model,14,Version,1,Origin,Reality,Earth-616,Lead Designer,Tony Stark,	Creators,Len Kaminski, Tom Morgan,First,Iron Man #318(July, 1995),	Creators,Len Kaminski, Tom Morgan,First,Iron Man #318(July, 1995),	Items,Anthony Stark (Earth-616)/Items,Battlesuits,Earth-616/Items,Len Kaminski/Creator,Tom Morgan/Creator,1995 Item Debuts,Unique Items,Iron Man Armor,

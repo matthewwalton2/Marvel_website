@@ -1,0 +1,1 @@
+	Gender,Male,	Origin,Mutant,Living Status,Alive,Reality,Earth-101001,	Identity,Public,Citizenship,German,Occupation,Terrorist,	First,Marvel Anime S3E01(In the ending credits),	Characters,Male Characters,Mutants (Homo superior),Public Identity Characters,Living Characters,Earth-101001/Characters,Germans,Terrorists,

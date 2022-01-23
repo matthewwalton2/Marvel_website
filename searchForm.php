@@ -30,11 +30,11 @@ function PrintPage($result_header, $result_body, $query) {
           </html>\n");
 }
 
-
 try {
     $firstInput = $_POST["firstTextInput"];
     $secondInput = $_POST["secondTextInput"];
     $thirdInput = $_POST["thirdTextInput"];
+    $comparator = $_POST["comparator"];
 }
 catch(PDOException $e) {
   PrintPage("Connection failed: " . $e->getMessage(), "Unknown");
@@ -48,7 +48,7 @@ $conn = new PDO("mysql:host=$serverName;dbname=$dbName",
 // set the PDO error mode to exception
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-$query = 'select * from Characters where ' . $secondInput . ' = \'' . $thirdInput . '\';';
+$query = 'select * from Characters where ' . $secondInput . ' ' . $comparator . ' \'' . $thirdInput . '\';';
 $stmt = $conn->prepare($query);
 $stmt->execute();
 

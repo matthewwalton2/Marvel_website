@@ -1,0 +1,54 @@
+/* This defines the style for the landing page of the website :
+    homepage.html
+*/
+body {
+    /* This is just for background stuff*/
+    background-color: rgb(231, 0, 0);
+    background-image: url('pictures/marvel_logo.jpg'), url('pictures/marvel_characters_hires.png');
+    background-attachment: fixed, fixed;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 10% 10%, 45% 45%;
+    background-position-x: center, center; 
+} 
+head {
+    color: white;
+}
+h1 {
+    font-size: 75px;
+    color: white;
+    position: relative; 
+    top: 215px;
+    text-align: center;
+ }
+ h2 {
+     color: yellow;
+     font-size: 36px;
+     text-align: center;
+     top: 200px;
+ }
+ /*
+ body {
+    position: relative;
+    top:300px;
+    text-align: center;
+ }
+ */
+ /*
+ h2 {
+    color: rgb(0, 73, 17);
+    position: relative; 
+    top: 300px;
+    text-align: center;
+ }
+ /*
+ p1 {
+     
+ }
+ p2 {
+     position: relative;
+     size: 35;
+     top: 400px;
+     text-align: right;
+ }
+ */
+ 

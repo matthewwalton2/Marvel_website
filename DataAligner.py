@@ -101,7 +101,7 @@ def singleFileRead(fileName, name, id):
                         except IndexError:
                             continue
     #print the csv tables into the file
-    print(str(id) + ',' + str(Name) + ',' + str(Affiliation) + ',' + str(Marital_Status) + ',' + str(Gender) + ',' + str(Height) + ',' + str(Weight) + ',' + str(Eyes) + ',' + str(Hair) + ',' + str(Unusual_Features) + ',' + str(Origin) + ',' + str(Living_Status) + ',' + str(Reality) + ',' + str(Place_of_Birth) + ',' + str(Identity) + ',' + str(Citizenship) + ',' + str(Occupation) + ',' + str(Creator1) + ',' + str(Creator2) + ',' + str(First))
+    print(str(id) + ',' + str(Name) + ',' + str(Affiliation) + ',' + str(Marital_Status) + ',' + str(Gender) + ',' + str(Height) + ',' + str(Weight) + ',' + str(Eyes) + ',' + str(Hair) + ',' + str(Unusual_Features) + ',' + str(Origin) + ',' + str(Living_Status) + ',' + str(Reality) + ',' + str(Place_of_Birth) + ',' + str(Identity) + ',' + str(Citizenship) + ',' + str(Occupation) + ',' + str(Creator1) + ',' + str(Creator2) + ',' + str(First) + ',' + str(Blob))
 
 #get all the output.txt files
 path = os.path.join(os.getcwd(), "Scraped")

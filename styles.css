@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-size: 10% 10%, 45% 45%;
     background-position-x: center, center; 
-    background-position-y: 320px, 50px;
+    background-position-y: 330px, 60px;
 } 
 head {
     color: white;
@@ -20,13 +20,14 @@ h1 {
     position: relative;
     top: -45px;
     text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-decoration: underline;
+
  }
  h2 {
-     color: yellow;
-     font-size: 24px;
+     color: white;
+     font-size: 18px;
      text-align: center;
      position: relative;
      top: 250px;
  }
-
- 
